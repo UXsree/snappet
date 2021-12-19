@@ -1,0 +1,19 @@
+{
+  "name": "snappetspec",
+  "version": "1.0.0",
+  "description": "test assignment for snappet",
+  "main": "index.js",
+  "scripts": {
+    "opency": "cypress open",
+    "runcy": "cypress run"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "sree",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.1.1",
+    "prettier": "^2.5.1"
+  }
+}

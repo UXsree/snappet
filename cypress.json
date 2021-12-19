@@ -1,0 +1,12 @@
+{
+    "video" : false,
+    "failOnStatusCode":false,
+    "responseTimeout":15000,
+    "requestTimeout":15000,
+    "pageLoadTimeout":60000,
+    "execTimeout":60000,
+    "defaultCommandTimeout":65000,
+    "waitForAnimations":true,
+    "waitForFileChanges":false,
+    "baseUrl":"https://teacher.snappet.org"
+}
