@@ -12,4 +12,10 @@ export default class ModalWindow {
     static activateSubject(){
         cy.get('button').contains('Activate subject').click({force: true})
     }
+    static keyinSubjectName(){
+        cy.get('.modal-content input').clear()
+        cy.get('.modal-content input').type("spellingbee")
+    }
+
+
   }

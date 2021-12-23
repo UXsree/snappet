@@ -25,8 +25,9 @@ export default class Navbar {
   }
 
   static logout(){
-    cy.get('[class="icon-down icon icon_down"]').click()
-    cy.get('[data-test-id="log-out"]').click()
+    cy.get('[class="btn btn-default btn-submenu dropdown"]').click()
+    
+    cy.get('.popover-container .submenu-header a').click()
     cy.get('[data-test="main-ctn"]').should('be.visible').and('contain','Logout')   
   }
 }
